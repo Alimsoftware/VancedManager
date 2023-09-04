@@ -1,21 +1,21 @@
 # Vanced Manager
-[![Github All Releases](https://img.shields.io/github/downloads/YTVanced/VancedManager/total.svg?style=for-the-badge)](https://github.com/YTVanced/VancedManager/releases/latest) [![Github All Releases](https://img.shields.io/github/release/YTVanced/VancedManager.svg?style=for-the-badge)](https://github.com/YTVanced/VancedManager/releases/latest)
+[![Github todos os lançamentos](https://img.shields.io/github/downloads/YTVanced/VancedManager/total.svg?style=for-the-badge)](https://github.com/YTVanced/VancedManager/releases/latest) [![Github todos os lançamentos](https://img.shields.io/github/release/YTVanced/VancedManager.svg?style=for-the-badge)](https://github.com/YTVanced/VancedManager/releases/latest)
 
-# **Now discontinued https://twitter.com/YTVanced/status/1503052250268286980**
+# **Agora descontinuado https://twitter.com/YTVanced/status/1503052250268286980**
 
-Hi, when we released Vanced 15.05.54, people were upset because it used the .apks format, which was way harder to install than a traditional .apk file. Even though we wrote clear instructions on how to install the new Vanced build, people still couldn't figure it out.  
-Then we thought, "why don't we make a manager for vanced, which will download, update and uninstall Vanced and MicroG, have an easy and understandable UI and be less than 10mb?" and that's how Vanced Manager was born.  
+Olá, quando lançamos o Vanced 15.05.54, as pessoas ficaram chateadas porque ele usava o formato .apks, que era muito mais difícil de instalar do que um arquivo .apk tradicional. Embora tenhamos escrito instruções claras sobre como instalar a nova versão do Vanced, as pessoas ainda não conseguiram descobrir.  
+Então pensamos: "por que não criamos um gerenciador para o vanced, que baixe, atualize e desinstale o Vanced e o MicroG, tenha uma interface de usuário fácil e compreensível e tenha menos de 10 MB?" e foi assim que nasceu o Vanced Manager.  
   
-After 3 months of development, we are finally ready to introduce Vanced Manager to the masses. Vanced manager can easily install and uninstall vanced and microg, has various settings for customisation and better experience. The Manager comes with an easy-to-use interface  
+Após 3 meses de desenvolvimento, estamos finalmente prontos para apresentar o Vanced Manager às massas. O gerenciador Vanced pode instalar e desinstalar facilmente o Vanced e o Microg, possui várias configurações para personalização e melhor experiência. O Manager vem com uma interface fácil de usar
 
-##### Background download/installation feature is no longer supported due to problems with some ROMs, please do NOT report issues regarding background activity.
+##### O recurso de download/instalação em segundo plano não é mais suportado devido a problemas com algumas ROMs. NÃO relate problemas relacionados à atividade em segundo plano.
 
-## Contributions
-Pull requests should be made to the Dev branch as that is the working branch, master is for release code.
+## Contribuições
+As solicitações pull devem ser feitas para o branch Dev, pois esse é o branch de trabalho, master é para o código de lançamento.
 
-For anyone who wants to provide translations please submit them to https://crowdin.com/project/vanced-manager as we also use it for Vanced. Any issues with translations should be posted there too.
+Para quem deseja fornecer traduções, envie-as para https://crowdin.com/project/vanced-manager, pois também o usamos para o Vanced. Quaisquer problemas com traduções devem ser postados lá também.
 
-## Building 
+## Construção
 
 <div>
 
@@ -23,15 +23,15 @@ For anyone who wants to provide translations please submit them to https://crowd
 
 </div>
 
-### Using Android Studio
-Clone the repo, open it in Android Studio and build the app.
+### Usando Android Studio
+Clone o repositório, abra-o no Android Studio e crie o aplicativo.
 
-### Using command line
-#### On Windows:
+### Usando command line
+#### No Windows:
 ```powershell
 .\gradlew.bat assembleDebug
 ```
-#### On Linux/macOS:
+#### No Linux/macOS:
 ```bash
 chmod +x gradlew
 ./gradlew assembleDebug
